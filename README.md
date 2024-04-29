@@ -1,4 +1,4 @@
-# AdV<sup>2</sup>iT: Attacking Interpretable Vision Transformers
+# AdViT: Attacking Interpretable Vision Transformers
 
 
 ## Requirements
