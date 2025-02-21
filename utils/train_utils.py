@@ -9,6 +9,7 @@ def is_dist_avail_and_initialized():
     return True
 
 
+
 def get_rank():
     if not is_dist_avail_and_initialized():
         return 0

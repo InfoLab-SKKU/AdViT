@@ -20,6 +20,7 @@ default_cfgs = {
     't2t_vit_dense': _cfg(),
 }
 
+
 class Transition(nn.Module):
     def __init__(self, in_features, out_features,  act_layer=nn.GELU):
         super(Transition, self).__init__()

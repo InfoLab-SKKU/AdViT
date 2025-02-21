@@ -18,6 +18,7 @@ from .token_performer import Token_performer
 from .transformer_block import Block, get_sinusoid_encoding
 
 
+
 def _cfg(url='', **kwargs):
     return {
         'url': url,

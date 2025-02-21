@@ -3,6 +3,7 @@ import torch
 import numpy as np
 from numpy import *
 
+
 # compute rollout between attention layers
 def compute_rollout_attention(all_layer_matrices, start_layer=0):
     # adding residual consideration- code adapted from https://github.com/samiraabnar/attention_flow
@@ -16,6 +17,7 @@ def compute_rollout_attention(all_layer_matrices, start_layer=0):
     for i in range(start_layer+1, len(matrices_aug)):
         joint_attention = matrices_aug[i].bmm(joint_attention)
     return joint_attention
+
 
 class LRP:
     def __init__(self, model):

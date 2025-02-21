@@ -27,7 +27,6 @@ from torchvision.datasets import ImageFolder
 # torch.cuda.current_device()
 
 
-
 def parse_args():
     parser = argparse.ArgumentParser(description='Transformers')
     parser.add_argument('--test_dir', default='img_folder', help='ImageNet Validation Data')

@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Transformers')
     parser.add_argument('--img_path', default="", help='Image path (in npz format)')

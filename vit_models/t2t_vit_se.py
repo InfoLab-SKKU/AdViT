@@ -19,6 +19,7 @@ default_cfgs = {
     'T2t_vit_14_se': _cfg(),
 }
 
+
 class SELayer(nn.Module):
     def __init__(self, channel, reduction=16):
         super(SELayer, self).__init__()

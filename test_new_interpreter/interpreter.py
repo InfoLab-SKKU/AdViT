@@ -11,6 +11,7 @@ import cv2
 import os
 import numpy as np
 
+
 parser = argparse.ArgumentParser(description='IA-RED^2 Interpretation Tool')
 parser.add_argument('-p', '--img-path', metavar='PATH',
                     help='path to input image')

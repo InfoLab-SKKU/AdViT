@@ -16,6 +16,7 @@ from timm.models.vision_transformer import Mlp
 from timm.models.registry import register_model
 
 
+
 def _cfg(url='', **kwargs):
     return {
         'url': url,

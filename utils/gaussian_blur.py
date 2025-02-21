@@ -5,6 +5,7 @@ import torch.nn as nn
 from torch.nn.functional import conv2d
 
 
+
 def gaussian(window_size, sigma):
     def gauss_fcn(x):
         return -(x - window_size // 2)**2 / float(2 * sigma**2)
