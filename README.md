@@ -34,4 +34,8 @@ Output is in _png_ format. The algorithm saves the output in the **visualization
 ![alt text](visualization/example_output.png)
 
 
+![alt text](visualization/intro_image.jpg)
+
+Example images comparing (a) benign samples, (b) samples subject to a regular adversarial attack, and (c) samples subject to our proposed attack, along with their interpretations.
+
 **Note**: I recommend to play with hyperparameters to get the best results.
